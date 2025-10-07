@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "modtemplate",
+  "name": "Mod Template",
+  "version": "${version}",
+  "authors": ["VesMaybeVesper"],
+  "contact": {
+    "sources": "",
+    "issues": ""
+  },
+  "description": "A Mod Description",
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "modtemplate.accesswidener",
+  "entrypoints": {
+    "main": [
+      "dev.vesper.modtemplate.fabric.FabricEntrypoint"
+    ],
+    "client": [
+      "dev.vesper.modtemplate.fabric.FabricClientEntrypoint"
+    ],
+    "fabric-datagen": [
+      "dev.vesper.modtemplate.fabric.datagen.FabricDataGeneratorEntrypoint"
+    ]
+  },
+  "mixins": [
+    "modtemplate.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  }
+}
