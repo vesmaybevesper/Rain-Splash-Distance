@@ -1,4 +1,4 @@
-package dev.vesper.modtemplate.fabric.datagen;
+package dev.vesper.rainsplashdistance.fabric.datagen;
 
 //? fabric {
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;

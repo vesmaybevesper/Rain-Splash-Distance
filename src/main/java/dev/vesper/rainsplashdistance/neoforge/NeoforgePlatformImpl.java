@@ -1,4 +1,4 @@
-package dev.vesper.modtemplate.neoforge;
+package dev.vesper.rainsplashdistance.neoforge;
 
 //? neoforge {
 /*import dev.spagurder.modtemplate.Platform;

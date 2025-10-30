@@ -12,20 +12,16 @@
   "icon": "assets/icon.png",
   "license": "MIT",
   "environment": "*",
-  "accessWidener": "modtemplate.accesswidener",
   "entrypoints": {
     "main": [
-      "dev.vesper.modtemplate.fabric.FabricEntrypoint"
+      "dev.vesper.rainsplashdistance.fabric.FabricEntrypoint"
     ],
     "client": [
-      "dev.vesper.modtemplate.fabric.FabricClientEntrypoint"
-    ],
-    "fabric-datagen": [
-      "dev.vesper.modtemplate.fabric.datagen.FabricDataGeneratorEntrypoint"
+      "dev.vesper.rainsplashdistance.fabric.FabricClientEntrypoint"
     ]
   },
   "mixins": [
-    "modtemplate.mixins.json"
+    "rainsplashdistance.mixins.json"
   ],
   "depends": {
     "fabric-api": "*"

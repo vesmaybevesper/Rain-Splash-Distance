@@ -1,7 +1,7 @@
-package dev.vesper.modtemplate.fabric.datagen;
+package dev.vesper.rainsplashdistance.fabric.datagen;
 
 //? fabric {
-import dev.vesper.modtemplate.ModTemplate;
+import dev.vesper.rainsplashdistance.ModTemplate;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;

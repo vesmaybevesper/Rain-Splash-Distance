@@ -1,7 +1,7 @@
-package dev.vesper.modtemplate.fabric;
+package dev.vesper.rainsplashdistance.fabric;
 
 //? fabric {
-import dev.vesper.modtemplate.ModTemplate;
+import dev.vesper.rainsplashdistance.ModTemplate;
 import net.fabricmc.api.ClientModInitializer;
 
 public class FabricClientEntrypoint implements ClientModInitializer {

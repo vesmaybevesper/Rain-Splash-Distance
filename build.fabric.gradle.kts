@@ -23,7 +23,7 @@ version = "${property("mod.version")}+${property("deps.minecraft")}-fabric"
 base.archivesName = property("mod.id") as String
 
 loom {
-    accessWidenerPath = rootProject.file("src/main/resources/${property("mod.id")}.accesswidener")
+    //accessWidenerPath = rootProject.file("src/main/resources/${property("mod.id")}.accesswidener")
 }
 
 jsonlang {

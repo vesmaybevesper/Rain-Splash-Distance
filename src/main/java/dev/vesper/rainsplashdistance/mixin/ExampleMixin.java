@@ -1,6 +1,6 @@
-package dev.vesper.modtemplate.mixin;
+package dev.vesper.rainsplashdistance.mixin;
 
-import dev.vesper.modtemplate.ModTemplate;
+import dev.vesper.rainsplashdistance.ModTemplate;
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
