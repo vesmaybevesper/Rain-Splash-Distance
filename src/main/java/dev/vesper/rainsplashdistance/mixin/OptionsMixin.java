@@ -29,7 +29,7 @@ public abstract class OptionsMixin {
     @Final
     private static Component GRAPHICS_TOOLTIP_WEATHER_RADIUS;
 
-    @ModifyVariable(method = "", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/Options;weatherRadius:Lnet/minecraft/client/OptionInstance;"))
+    @ModifyVariable(method = "", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/client/Options;weatherRadius:Lnet/minecraft/client/OptionInstance;"))
     private void modifyWeatherRadius(CallbackInfo ci) {
         this.weatherRadius = new OptionInstance<>("options.weatherRadius", OptionInstance.cachedConstantTooltip(GRAPHICS_TOOLTIP_WEATHER_RADIUS), (component, integer) -> genericValueLabel(component, Component.translatable("options.blocks", new Object[]{integer})), new OptionInstance.IntRange(3, 50, true), 10, (integer) -> this.setGraphicsPresetToCustom());
     }
